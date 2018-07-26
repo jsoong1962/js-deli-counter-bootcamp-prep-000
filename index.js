@@ -3,10 +3,12 @@ let katzDeliLine = [];
 
 function takeANumber(name) {
   katzDeliLine.push(name);
+  return `Welcome, ${name}.  You are number ${katzDeliLine.length}`;
+}
+
+function currentLine(katzDeliLine) {
   
 }
-const  in ltakeANumber = (name) => {katzDeliLine.push(name);
-ine.`;};
 
 const currentLine = (katzDeliLine) => { 
 let string = 'The line is currently: '; 
