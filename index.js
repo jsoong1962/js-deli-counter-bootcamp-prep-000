@@ -3,6 +3,7 @@ let katzDeliLine = [];
 
 function takeANumber(name) {
   katzDeliLine.push(name);
+  
 }
 const  in ltakeANumber = (name) => {katzDeliLine.push(name);
 ine.`;};
