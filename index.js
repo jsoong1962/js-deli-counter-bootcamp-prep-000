@@ -12,7 +12,7 @@ function currentLine(katzDeliLine) {
   for (let i = 0; i < katzDeliLine.length; i++) {
     
   }
-   string += `${i+1}. ${katzDeliLine[i]}, `);
+   
   return string.slice(0, -2);
 }
 
