@@ -16,7 +16,7 @@ function nowServing() {
   return Currently
 }
 
-const nowServing = () => {`Currently server ${katzDeliLine.shift()}`};
+const nowServing = () => {};
 
 
 
