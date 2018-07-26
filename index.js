@@ -13,7 +13,7 @@ function currentLine(katzDeliLine) {
 }
 
 function nowServing() {
-  return 
+  return `Currently server ${katzDeliLine.shift()}`
 }
 
 const nowServing = () => {};
