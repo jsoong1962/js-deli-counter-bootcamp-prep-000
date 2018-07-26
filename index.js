@@ -13,7 +13,7 @@ function currentLine(katzDeliLine) {
 }
 
 function nowServing() {
-  return Currently
+  return 
 }
 
 const nowServing = () => {};
