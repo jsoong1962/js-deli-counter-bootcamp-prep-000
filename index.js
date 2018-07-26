@@ -9,7 +9,10 @@ function takeANumber(name) {
 function currentLine(katzDeliLine) {
   let string = 'The line is currently: '; 
   if (katzDeliLine.length === 0) return 'The line is currently empty.';
-  katzDeliLine.forEach((element, i) => string += `${i+1}. ${katzDeliLine[i]}, `);
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    
+  }
+   string += `${i+1}. ${katzDeliLine[i]}, `);
   return string.slice(0, -2);
 }
 
