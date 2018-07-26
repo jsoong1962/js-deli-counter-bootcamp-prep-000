@@ -4,8 +4,8 @@ let katzDeliLine = [];
 function takeANumber(name) {
   katzDeliLine.push(name);
 }
-const takeANumber = (name) => {katzDeliLine.push(name);
-return `Welcome, ${name}.  You are number ${katzDeliLine.length} in line.`;};
+const return `Welcome, ${name}.  You are number ${katzDeliLine.length} in ltakeANumber = (name) => {katzDeliLine.push(name);
+ine.`;};
 
 const currentLine = (katzDeliLine) => { 
 let string = 'The line is currently: '; 
